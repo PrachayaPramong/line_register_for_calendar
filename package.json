@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
+    "build": "yarn nuxt build",https://github.com/PrachayaPramong/linepropso/blob/master/package.json
+    "start": "yarn nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
