@@ -22,6 +22,7 @@ export const state = () => ({
         position:''
     },
     check: {
+        id_workshop:''
     },
     data: {  
         agenda: [
