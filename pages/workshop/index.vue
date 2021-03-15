@@ -122,7 +122,7 @@
             //this.profile.userId = profile.userId
             //this.form.profile = profile.userId
             //this.$store.dispatch('setCheck', this.profile)
-            //this.$store.dispatch('setCheck', this.form)
+            this.$store.dispatch('setCheck', this.form)
         },
         submit() {
           this.$axios.patch(`https://register-a5f37-default-rtdb.firebaseio.com/members/${this.$store.getters.getLine.userId}/profile/workshop/${this.$store.getters.getCheck.id_workshop}.json`, this.$store.getters.getCheck)
