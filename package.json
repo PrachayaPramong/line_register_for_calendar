@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "yarn build",
-    "start": "yarn start",
-    "generate": "yarn generate"
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",
