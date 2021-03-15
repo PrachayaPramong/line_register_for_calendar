@@ -125,8 +125,7 @@
             //this.$store.dispatch('setCheck', this.form)
         },
         submit() {
-          this.$axios.patch(`https://register-a5f37-default-rtdb.firebaseio.com/members/${this.$store.getters.getLine.userId}/profile/workshop/${this.$store.getters.getCheck.id_workshop}.json`, this.$store.getters.getCheck).then((res) => {
-                }).catch(e => console.log(e))
+          this.$axios.patch(`https://register-a5f37-default-rtdb.firebaseio.com/members/${this.$store.getters.getLine.userId}/profile/workshop/${this.$store.getters.getCheck.id_workshop}.json`, this.$store.getters.getCheck)
           if(this.validate()) {
           }
             //console.log("Register")
